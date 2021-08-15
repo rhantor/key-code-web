@@ -113,6 +113,7 @@ section .container div:hover {
   position: fixed;
   left: 50%;
   top: 20px;
+  margin-bottom: 150px;
   width: 100%;
   display: none;
   -webkit-box-pack: center;

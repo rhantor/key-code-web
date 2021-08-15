@@ -18,7 +18,7 @@ input.addEventListener('keydown',()=>{
 
 
 
-window.addEventListener("keydown", (e) => {
+window.addEventListener("keypress", (e) => {
   overlay.classList.add("hide");
   key.innerText = e.key;
   keyCode.innerText = e.keyCode;
