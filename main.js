@@ -10,7 +10,7 @@ ClearBtn.addEventListener('click' , ()=>{
 })
 
 let input = document.querySelector('input');
-input.addEventListener('keydown',()=>{
+input.addEventListener('keypress',()=>{
     if(input.value){
         input.value = '';
 }
@@ -18,7 +18,7 @@ input.addEventListener('keydown',()=>{
 
 
 
-window.addEventListener("keypress", (e) => {
+window.addEventListener("keydown", (e) => {
   overlay.classList.add("hide");
   key.innerText = e.key;
   keyCode.innerText = e.keyCode;
