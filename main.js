@@ -3,18 +3,7 @@ let keyCode = document.querySelector(".keyCode h2");
 let keyCodeDiv = document.querySelector(".keyCode");
 let copied = document.querySelector(".keyCode p");
 let overlay = document.querySelector(".overlay");
-let ClearBtn = document.querySelector('button');
 
-ClearBtn.addEventListener('click' , ()=>{
-    location.reload();
-})
-
-let input = document.querySelector('input');
-input.addEventListener('keypress',()=>{
-    if(input.value){
-        input.value = '';
-}
-})
 
 
 
